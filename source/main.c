@@ -38,7 +38,7 @@ int main(int argc, char* argv[])
     consoleInit(GFX_TOP, &topScreen);
     consoleSelect(&topScreen);
 
-    printf("Dead Simple EULA Set - v1.1.0\n\n");
+    printf("Dead Simple EULA Set - v1.1.99\n\n");
 
     // read magic
     res = CFGU_GetConfigInfoBlk2(4, 0xD0000, eulaData);
